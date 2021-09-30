@@ -1,0 +1,94 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(0 0 0);
+}
+
+header {
+  background-color: rgb(0 0 0);
+}
+
+main {
+  background-color: rgb(0 0 0);
+}
+
+/* icone */
+.fa-grip-horizontal {
+  color: white;
+  margin-right: 4px;
+}
+
+.fa-expand-arrows-alt {
+  color: white;
+}
+
+/* HEADER */
+
+#container-header {
+  width: 97%;
+  height: 43px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 30px;
+  /* debug
+  background-color: yellowgreen; */
+}
+
+#view {
+  background-color: rgb(60 60 60);
+  color: white;
+  border-radius: 11px;
+  text-align: center;
+  padding: 13px 15px;
+}
+
+#expand {
+  background-color: rgb(60 60 60);
+  color: white;
+  border-radius: 11px;
+  text-align: center;
+  padding: 13px 27px;
+  margin: 0 10px;
+}
+
+/* MAIN */
+
+#container-main {
+  width: 85%;
+  height: 750px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+main img {
+  width: 305px;
+  height: 162px;
+  border: solid 8px black;
+}
+
+.nome-utente {
+  color: white;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 2px;
+  bottom: 336px;
+  left: 197px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(32 34 35);
+}
